@@ -15,3 +15,13 @@ const favoritos = ["violão", "guitarra", "rock", "sorvete", "Dark souls", "Meta
 console.log(favoritos);
 
 console.log(`estava tocando ${favoritos[1]}, após isso joguei ${favoritos[4]} escutando ${favoritos[6]}`);
+
+/*  MATRIZ (array com mais de uma dimensão) */
+
+const tecnologias = [
+    ["HTML5", "CSS3", "javaScript"],
+
+    ["PHP", "Node.js", "SQL", "Python", "Firebase"]
+];
+
+console.log(tecnologias[0][1]);
