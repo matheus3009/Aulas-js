@@ -38,3 +38,15 @@ if (onibus == 2203 || onibus == 2019) {
 } else {
     console.log("Não passa no Senac, aguarde!")    
 }
+
+console.log("---------------------------------");
+
+//Operador NEGAÇÂO/NOT (!)
+
+let blackFriday = false; // false simboliza "não vigorando"
+
+if ( !blackFriday ) {
+    console.log("Preços normais...");
+}else {
+    console.log("Black Friday vigorando! Descontods!");
+}
