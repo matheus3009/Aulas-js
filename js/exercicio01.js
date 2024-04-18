@@ -16,6 +16,8 @@ if (media >= 7) {
     texto4 = "recuperação";
 } else {
     texto4 = "reprovado";
-};
+}
 
 console.log(`${texto4}`);
+
+ 
