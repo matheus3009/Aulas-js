@@ -66,3 +66,18 @@ backEnd.style.border = "solid black"
 // Aplicação de classes CSS via JS
 
 titulo.classList.add("destaque")
+
+const listaDeEditores = [
+    {
+        nome: "Visual Studio Code",
+        finalidade: "Desenvolvimento Web em geral"
+    }
+    {
+        nome: "Android Studio",
+        finalidade: "Desenvolvimento de apps android"
+    }
+    {
+        nome: "X Code",
+        finalidade: "Desenvolvimento de apps IOS"
+    }
+]
