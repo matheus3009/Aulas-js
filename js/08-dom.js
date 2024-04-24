@@ -49,3 +49,20 @@ console.log(subtitulos);
 const variosElementos = document.querySelectorAll("p, a, p b, #teste, .xyz");
 
 console.log(variosElementos);
+
+/* Modificando o DOM:
+Podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos etc
+*/
+
+legenda.textContent = "Imagem do modelo de objetos do documento";
+
+// Alteração de contrúdo com suporte à tags
+sobreFront.innerHTML = " <i>Front-End</i>";
+
+// Alteração de estilos inline (CSS in JS)
+backEnd.style.color = "red";
+backEnd.style.border = "solid black"
+
+// Aplicação de classes CSS via JS
+
+titulo.classList.add("destaque")
