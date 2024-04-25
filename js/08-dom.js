@@ -100,3 +100,12 @@ for (const editor of listaDeEditores) {
   //Etapa3: adicionar o elemento à lista <ol>
   lista.appendChild(item);
 }
+
+/* Criando/configurando atributos HTML via JS */
+const linksDeReferencia = document.querySelectorAll(".referencias a");
+console.log(linksDeReferencia);
+
+for (const link of linksDeReferencia) {
+    //colocando o atributo target valendo _blank em cada link
+    link.setAttribute("target", "_blank")
+}
