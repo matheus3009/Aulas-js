@@ -71,13 +71,32 @@ const listaDeEditores = [
     {
         nome: "Visual Studio Code",
         finalidade: "Desenvolvimento Web em geral"
-    }
+    },
     {
         nome: "Android Studio",
         finalidade: "Desenvolvimento de apps android"
-    }
+    },
     {
         nome: "X Code",
         finalidade: "Desenvolvimento de apps IOS"
     }
 ]
+
+//Acessando /selecionando a lista que será ultilizada no HTML
+const lista = document.querySelector(".lista");
+console.log(lista);
+
+/* Percorrer (loop) o array de listaDeEditores,
+criar os itens <li> com o conteúdo do array e adicioná-los à lista HTML. */
+
+//for (variavel/constante de acesso of arrayComDadosQueQueremosAcessar) {
+for (const editor of listaDeEditores) {
+  //Etapa1: criar elemento <li>
+   const item = document.createElement("li");
+
+  //Etapa2: adicionar conteúdo ao novo elemento
+    item.innerHTML = `<b>${editor.nome}</b>: ${editor.finalidade}`;
+
+  //Etapa3: adicionar o elemento à lista <ol>
+  lista.appendChild(item);
+}
