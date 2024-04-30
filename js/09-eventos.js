@@ -56,11 +56,24 @@ botao.addEventListener("click", function(){
     divContainer.style.transition = "3s";
     pagina.style.transition = "3s";
     //2) Fazer o botão mudar de texto, ou seja inicia com o texto "ativar" e troca para texto "desativar" conforme o que estiver acontecendo.
-    if (botao.textContent === "Desativar") {
-        noturno.textContent = "Ativar"
+    if (botao.textContent == "Desativar") {
+        noturno.textContent = "Ativar";
         
     } else {
-      botao.textContent = "Desativar"
+      botao.textContent = "Desativar";
+
       
     }
-})
+});
+
+/*  Duplo sinal de igual ==
+ e
+  triplo sinal de igual ===
+  
+  == IGUALDADE (Considera somente valor)
+  === IGUALDADE ESTRITA (fconsidera valor E tipo de dado)
+  */
+
+  let a = 10;
+  let b = "10";
+  console.log(a === b);
